@@ -161,7 +161,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="sources\Camera.cpp" />
+    <ClCompile Include="sources\Entity.cpp" />
+    <ClCompile Include="sources\Game.cpp" />
+    <ClCompile Include="sources\main.cpp" />
+    <ClCompile Include="sources\Player.cpp" />
+    <ClCompile Include="sources\Tile.cpp" />
+    <ClCompile Include="sources\TileSetedMap.cpp" />
+    <ClCompile Include="sources\Walkable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sources\Camera.h" />
+    <ClInclude Include="sources\const.h" />
+    <ClInclude Include="sources\Entity.h" />
+    <ClInclude Include="sources\Game.h" />
+    <ClInclude Include="sources\Player.h" />
+    <ClInclude Include="sources\Tile.h" />
+    <ClInclude Include="sources\TileSetedMap.h" />
+    <ClInclude Include="sources\Walkable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
